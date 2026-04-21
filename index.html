@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SB19</title>
+    <style>
+        header {
+            background-color: black;
+            align-items: center;
+            display: flex;
+            padding: 10px;
+        }
+
+        header img {
+            width: 150px;
+            height: 100px;
+            color: white;
+            filter: invert(1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+        }
+
+        h3 {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+        }
+
+        #about {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            display: flex;
+            font-size: 30px;
+            flex-wrap: wrap;
+        }
+
+        #about img {
+            width: 600px;
+            height: 450px;
+            margin-left: 20px;
+            margin-right: 20px;
+            background-color: transparent;
+        }
+
+        #about-text {
+            flex: 1;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+
+        #group-photo {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        .description {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .horizontal {
+            flex: 1;
+            display: flex;
+            margin: 20px;
+            flex-direction: column;
+            padding: 10px 10px;
+            gap: 0px;
+            margin: 2px;
+        }
+
+        #member img {
+            width: 300px;
+            height: 300px;
+            gap: 20px;
+        }
+
+        .member details {
+            margin-top: 10px;
+            font-size: 30px;
+            text-align: left;
+        }
+
+        .member h2 {
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        #links {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            gap: 20px;
+            word-spacing: 30px;
+            flex-wrap: wrap;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #home {
+            background-color: black;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+
+        .career p {
+            margin: 10px;
+            font-family: Arial, sans-serif;
+            padding: 10px 10px;
+        }
+
+        .career details {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+        }
+
+        #music li a {
+            list-style-type: none;
+            padding: 0;
+            color: black;
+            text-decoration: none;
+        }
+
+        #legacy {
+            flex: 1;
+            display: flex;
+            margin: 20px;
+            flex-direction: column;
+            padding: 10px 10px;
+
+        }
+
+        #photos img {
+            width: 300px;
+            height: 150px;
+            gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        Footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section id="home">
+        <header>
+            <img src="images/LOGO.png" alt="SB19 Logo">
+            <div id="links">
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#member">Members</a>
+                    <a href="#career">Career</a>
+                    <a href="#legacy">Legacy</a>
+                    <a href="#music">Music</a>
+                    <a href="#film">Filmography</a>
+                    <a href="#awards">Awards</a>
+                    <a href="#concerts">Concerts</a>
+                    <a href="#photos">Photos</a>
+                    <a href="#news">News</a>
+                </nav>
+            </div>
+        </header>
+    </section>
+
+    <img src="images/SB19.jpg" alt="SB19 Group Photo" id="group-photo">
+
+    <section id="about">
+        <div id="about-text">
+            <h2 style="text-align: center;">ABOUT SB19</h2>
+            <p> SB19 is a Filipino boy group formed by the company ShowBT Philippines. The group debuted in 2018
+                and has five members: Pablo (SB19 member), Josh Cullen, Stell Ajero, Ken Suson, and Justin De Dios.
+                They are known for their powerful vocals, synchronized dancing, and meaningful songs that often
+                talk about dreams, struggles, and Filipino pride.
+
+                SB19 became internationally recognized after their song Go Up went viral online. Since then, they
+                have helped popularize P-pop (Pinoy pop) and became one of the most successful Filipino music
+                groups, gaining fans around the world called A’TIN.</p>
+        </div>
+
+        <img src="images/pic.jpg" alt="SB19 Group Photo">
+    </section>
+
+    <section id="member" class="description">
+        <h1>MEMBERS</h1>
+
+        <div class="container">
+            <div class="horizontal">
+                <h2>PABLO</h2>
+                <img src="images/pablo.jpg" alt="Pablo">
+                <details>
+                    <summary>More Info</summary>
+                    <p>Born on September 14, 1994, Pablo (formerly Sejun) is a Filipino singer, rapper, songwriter,
+                        dancer,
+                        and producer. He is a member of the boy group SB19 and the CEO of 1Z Entertainment, a company
+                        run by
+                        SB19 members. In 2025, he was named Artist of the Year at the 10th Wish Music Awards.</p>
+                </details>
+            </div>
+            <div class="horizontal">
+                <h2>JOSH</h2>
+                <img src="images/josh.jpg" alt="Josh Cullen">
+                <details>
+                    <summary>More Info</summary>
+                    <p>Born on March 21, 1997, Josh Cullen is a Filipino singer, dancer, and member of the boy group
+                        SB19.
+                        He is known for his powerful vocals and charismatic stage presence. Josh has contributed to the
+                        group's success with his talent and dedication, making him a beloved member of SB19.</p>
+                </details>
+            </div>
+            <div class="horizontal">
+                <h2>STELL</h2>
+                <img src="images/stell.jpg" alt="Stell Ajero">
+                <details>
+                    <summary>More Info</summary>
+                    <p>Born on September 16, 1996, Stell Ajero is a Filipino singer, dancer, and member of the boy
+                        group SB19. He is known for his smooth vocals and impressive dance skills. Stell has been an
+                        integral part of SB19's success, contributing to the group's dynamic performances and musical
+                        achievements.</p>
+                </details>
+            </div>
+            <div class="horizontal">
+                <h2>KEN</h2>
+                <img src="images/ken.jpg" alt="Ken Suson">
+                <details>
+                    <summary>More Info</summary>
+                    <p>Born on November 15, 1996, Ken Suson is a Filipino singer, dancer, and member of the boy group
+                        SB19. He is known for his powerful vocals and energetic stage presence. Ken has been a key
+                        member
+                        of SB19, contributing to the group's success with his talent and dedication.</p>
+                </details>
+            </div>
+            <div class="horizontal">
+                <h2>JUSTIN</h2>
+                <img src="images/JUSTIN.jpg" alt="Justin De Dios">
+                <details>
+                    <summary>More Info</summary>
+                    <p>Born on July 20, 1997, Justin De Dios is a Filipino singer, dancer, and member of the boy group
+                        SB19. He is known for his versatile vocal range and dynamic dance moves. Justin has played a
+                        significant role in SB19's journey, bringing his unique style and passion to the group's
+                        performances.</p>
+                </details>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="career" class="description">
+        <h1>CAREER</h1>
+
+        <div class="container">
+            <div class="horizontal">
+                <h3>2018–2020: Formation and Breakthrough</h3>
+                <p>SB19 was formed in 2018 and debuted in 2019. They became popular when “Go Up” went viral and released
+                    their first album in 2020, gaining more fans and recognition..</p>
+                <details>
+                    <summary>More Info</summary>
+                    <P>SB19 was formed in 2018 under ShowBT Philippines and trained using a K-pop style system. After
+                        some lineup changes, the final members became Pablo, Josh, Stell, Ken, and Justin.
+
+                        They debuted in 2018 with “Tilaluha,” but their big breakthrough came in 2019 when “Go Up” went
+                        viral online. This helped them gain a strong fanbase and appear on Billboard’s Social 50 chart.
+
+                        In 2020, they released their first album Get in the Zone. This increased their popularity even
+                        more. They also held their first online concert and became the first Southeast Asian act to
+                        reach the top 10 of Billboard’s year-end Social 50 chart.</P>
+                </details>
+            </div>
+            <div class="horizontal">
+                <h3>2021–2022: Rise and Global Recognition</h3>
+                <p>SB19 became more famous in 2021 with “Pagsibol” and award nominations. In 2022, they went
+                    international with performances and their world tour. </p>
+                <details>
+                    <summary>More Info</summary>
+                    <P>In 2021, SB19 released their EP Pagsibol, featuring songs like “What?” and “Mapa.” They became
+                        the first Filipino group nominated at the Billboard Music Awards. Their song “Bazinga” also
+                        became very successful, reaching No. 1 on Billboard’s Hot Trending Songs chart.
+
+                        They also gained recognition through concerts, brand partnerships, and being named youth
+                        ambassadors.
+
+                        In 2022, they performed at international events like Expo 2020 Dubai and ASEAN-Korea Round
+                        Festival. They also helped lead major P-pop events in the Philippines and strengthened their
+                        presence in the music industry.</P>
+                </details>
+            </div>
+            <div class="horizontal">
+                <h3>2022–2023: Global Expansion</h3>
+                <p>SB19 released “WYAT” and went on their first world tour, gaining global attention and new fans. </p>
+                <details>
+                    <summary>More Info</summary>
+                    <P>In 2022, SB19 released “WYAT (Where You At),” a disco-pop song about reconnecting with people. It
+                        showed a new style for the group.
+
+                        They launched their first world tour, performing in the Philippines, Singapore, UAE, and the
+                        United States. This helped them reach more international fans.
+
+                        Their tour trended online, and “WYAT” entered Billboard’s Hot Trending Songs chart. They also
+                        appeared on U.S. television and were recognized as one of the most influential Filipino music
+                        groups.</P>
+                </details>
+            </div>
+            <div class="horizontal">
+                <h3>2024–Present: Continued Success</h3>
+                <p>SB19 continues to release music, perform, and grow their fanbase globally. They remain a leading
+                    force in P-pop and Filipino music.</p>
+                <details>
+                    <summary>More Info</summary>
+                    <P>SB19 continues to release new music and perform internationally. They have a strong fanbase
+                        called A’TIN and are known for their meaningful songs and powerful performances.
+
+                        They have won many awards and are recognized as one of the most influential Filipino music
+                        groups. They continue to inspire fans with their talent, dedication, and positive messages.
+                    </P>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="description">
+        <div class="container">
+
+            <div class="horizontal" id="legacy">
+                <h3>ARTISTS AND THEIR LEGACY</h3>
+                <ul>
+                    <li>P-pop pioneers – SB19 is one of the groups that helped make P-pop more popular in the
+                        Philippines and abroad.</li>
+                    <li>TInspiring artists – They motivated many young Filipinos to pursue music and performing arts.
+                    </li>
+                    <li>Global recognition – They represented the Philippines in international events and music charts.
+                    </li>
+                    <li>Meaningful music – Their songs often talk about dreams, struggles, family, and Filipino pride
+                    </li>
+                    <li>Award-winning success – They achieved milestones like Billboard chart entries and major award
+                        nominations.</li>
+                    <li>Cultural impact – They helped shape the identity of modern Filipino pop music worldwide.</li>
+                </ul>
+            </div>
+
+            <div class="horizontal" id="music">
+                <h3>MUSIC</h3>
+
+                <ul>
+                    <li> <a href="https://youtu.be/VZZA_38RUBI?si=xY_1Gl2A2AtF4p06" target="_blank"
+                            class="size">GENTO</a></li>
+                    <li> <a href="https://youtu.be/DDyr3DbTPtk?si=prb0TpHJByL8Vp2h" target="_blank"
+                            class="size">MAPA</a></li>
+                    <li> <a href="https://youtu.be/9Fqszuma1zQ?si=2HbpeLYhTGgEaiSQ" target="_blank"
+                            class="size">TILALUHA</a></li>
+                    <li><a href="https://youtu.be/p6XBcQj5Hs4?si=bavPQlS1azIukfkA" target="_blank" class="size">
+                            BAZINGA</a></li>
+                    <li><a href="https://youtu.be/WRfhzWaiQvk?si=HyS7BnLxZHIDrc70" target="_blank" class="size">GO
+                            UP</a></li>
+                    <li><a href="https://youtu.be/S82NKEOVj50?si=VxwK9NkSayXrdL-G" target="_blank" class="size">Hanggang
+                            Sa Huli</a></li>
+                    <li><a href="https://youtu.be/-tWuVqZnoL4?si=AAKLOmFb5JHI5aSF" target="_blank" class="size"> Alab
+                            (Burning)</a></li>
+                    <li><a href="https://youtu.be/s25Yi6pZnMs?si=ph_9DrynRKXPowc7" target="_blank" class="size"> I WANT
+                            YOU</a></li>
+                </ul>
+            </div>
+
+            <div class="horizontal" id="film">
+                <h3>FILMOGRAPHY</h3>
+
+                <h3>Music Videos</h3>
+                <ul>
+                    <li>Go Up (2019)</li>
+                    <li>Tilaluha (2018)</li>
+                    <li>Alab (Burning) (2019)</li>
+                    <li>Hanggang sa Huli (2020)</li>
+                    <li>What? (2021)</li>
+                    <li>MAPA (2021)</li>
+                    <li>WYAT (2022)</li>
+                    <li>GENTO (2023)</li>
+                </ul>
+
+                <h3>TV Shows & Appearances</h3>
+                <ul>
+                    <li>ASAP Natin 'To</li>
+                    <li>It's Showtime</li>
+                    <li>Wish Bus Performances</li>
+                </ul>
+
+                <h3>Concerts & Specials</h3>
+                <ul>
+                    <li>Get in the Zone Online Concert (2020)</li>
+                    <li>Pagsibol Shows (2021)</li>
+                    <li>WYAT World Tour (2022–2023)</li>
+                </ul>
+            </div>
+
+            <div class="horizontal" id="awards">
+                <h3>AWARDS AND NOMINATIONS</h1>
+
+                    <h3>Major Awards</h3>
+                    <ul>
+                        <li>Wish Music Awards – Artist of the Year</li>
+                        <li>Wish Music Awards – Group of the Year</li>
+                        <li>Wish Music Awards – Pop Song of the Year</li>
+                        <li>MYX Music Awards – Favorite Group</li>
+                        <li>Awit Awards – Best Performance by a Group</li>
+                    </ul>
+
+                    <h3>International Nominations</h3>
+                    <ul>
+                        <li>Billboard Music Awards – Top Social Artist</li>
+                        <li>MTV Europe Music Awards – Best Southeast Asian Act</li>
+                        <li>Nickelodeon Kids’ Choice Awards – Favorite Asian Act</li>
+                    </ul>
+
+                    <h3>Other Recognitions</h3>
+                    <ul>
+                        <li>Youth Ambassadors (NCCA)</li>
+                        <li>Billboard Social 50 chart appearances</li>
+                        <li>Top 10 Billboard Year-End Social 50</li>
+                    </ul>
+
+            </div>
+    </section>
+
+    <section class="description">
+        <div class="container">
+
+            <div class="horizontal" id="concerts">
+                <h3>CONCERTS</h3>
+
+                <h3>Major Concerts & Tours</h3>
+                <ul>
+                    <li>Get in the Zone Online Concert (2020)</li>
+                    <li>Back in the Zone Online Concert (2021)</li>
+                    <li>Pagsibol Online Shows (2021)</li>
+                    <li>WYAT World Tour (2022–2023)</li>
+                    <li>PAGTATAG! World Tour (2023–2024)</li>
+                </ul>
+
+                <h3>International Performances</h3>
+                <ul>
+                    <li>Singapore Tour Stops</li>
+                    <li>Dubai Expo 2020</li>
+                    <li>United States Tour Stops</li>
+                    <li>ASEAN-Korea Round Festival</li>
+                </ul>
+
+                <h3>Local Events</h3>
+                <ul>
+                    <li>P-pop Convention (PPOPCON)</li>
+                    <li>Live concerts and mall shows</li>
+                    <li>Fan meet events</li>
+                </ul>
+            </div>
+
+            <div class="horizontal" id="photos">
+                <h3>PHOTOS</h3>
+
+                <img src="images/1.jpg" alt="SB19 Photo 1">
+                <img src="images/2.jpg" alt="SB19 Photo 2">
+                <img src="images/3.jpg" alt="SB19 Photo 3">
+                <img src="images/4.jpg" alt="SB19 Photo 4">
+                <img src="images/5.jpg" alt="SB19 Photo 5">
+                <img src="images/6.jpg" alt="SB19 Photo 6">
+
+            </div>
+
+            <div class="horizontal" id="news">
+                <h3>LATEST NEWS ON SB19</h3>
+
+                    <div class="news-container">
+
+
+                        <h3>🎵 New Album: “Wakas at Simula”</h3>
+                        <p>SB19 released their 24-track album marking a new era in their career, featuring international
+                            collaborations.</p>
+
+
+
+                        <h3>🌍 Lollapalooza 2026</h3>
+                        <p>SB19 became the first Filipino act to perform at Lollapalooza in Chicago, a major global
+                            music festival.</p>
+
+
+
+                        <h3>🎤 Summer Sonic Japan</h3>
+                        <p>The group is set to perform at Summer Sonic 2026, expanding their presence in Asia.</p>
+
+
+
+                        <h3>🎶 Concert Finale</h3>
+                        <p>They held “The Trilogy Finale” concert, showcasing their biggest and most powerful
+                            performance yet.</p>
+
+
+
+                        <h3>🛍️ Pop-Up Store</h3>
+                        <p>SB19 launched a “Wakas at Simula” pop-up store featuring official merchandise and fan
+                            experiences.</p>
+
+
+
+                        <h3>🌏 Global Recognition</h3>
+                        <p>Featured in international media like Billboard Japan for their growing global influence.</p>
+
+
+                    </div>
+
+            </div>
+    </section>
+
+    <footer>
+        <h3>CONTRIBUTORS</h3>
+        <p>Created by: ANDRES, LUIS L.</p>
+        <P>DESIGN BY: MANSAWI ASGAR, JEMMIE DUHIG, BRIAN STEVEN CUBELO</P>
+        <p>INFO GET BY ASILO, JOHN CLAUEE C. , ANDRES, LUIGEE L.</p>
+
+    </footer>
+
+
+</body>
+
+</html>
